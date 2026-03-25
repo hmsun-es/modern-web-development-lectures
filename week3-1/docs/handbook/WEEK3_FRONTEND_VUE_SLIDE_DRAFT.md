@@ -14,6 +14,8 @@
   - "처음에는 HTML에 script 하나 추가하면 끝나지만, 팀 프로젝트에서는 누가 어떤 버전을 쓰는지 맞추기 어렵습니다."
 - 시연 체크
   - 간단한 before 화면(직접 script 로드) 캡처 제시
+- 참조 소스
+  - `week3-1/src/01-legacy-script-demo/index.html`, `week3-1/src/01-legacy-script-demo/app.js`
 
 ### Slide 2. 모던 개발 환경 개요
 
@@ -24,6 +26,8 @@
   - "우리는 라이브러리를 붙이는 것보다, 프로젝트를 재현하는 방법을 먼저 배웁니다."
 - 시연 체크
   - 흐름도: 개발자 -> npm scripts -> dev server -> browser
+- 참조 소스
+  - `week3-1/src/README.md`
 
 ### Slide 3. Node.js와 npm 역할 분리
 
@@ -34,6 +38,8 @@
   - "Node가 엔진이라면 npm은 부품 창고이자 실행 버튼입니다."
 - 시연 체크
   - node -v, npm -v 명령 결과 확인
+- 참조 소스
+  - `week3-1/src/02-modern-javascript-lab/README.md`
 
 ### Slide 4. package.json 읽는 방법
 
@@ -44,6 +50,8 @@
   - "명령어를 외우지 말고 scripts를 읽으세요. 거기에 팀의 실행 규칙이 들어 있습니다."
 - 시연 체크
   - 샘플 package.json에서 scripts 2~3개 설명
+- 참조 소스
+  - `week3-1/src/02-modern-javascript-lab/package.json`
 
 ### Slide 5. 실습: npm install / npm run dev / npm run build
 
@@ -54,6 +62,8 @@
   - "여기서 중요한 건 성공 자체보다, 실패했을 때 로그를 읽는 습관입니다."
 - 시연 체크
   - 터미널 실행 순서와 결과 화면
+- 참조 소스
+  - `week3-1/src/02-modern-javascript-lab/README.md`, `week3-1/src/02-modern-javascript-lab/src/main.js`
 
 ### Slide 6. 자주 나는 오류와 대응
 
@@ -64,6 +74,8 @@
   - "Error 한 줄 전체를 읽기보다, 핵심 키워드 세 개를 먼저 찾습니다."
 - 시연 체크
   - 오류 예시 1개와 해결 절차 3단계
+- 참조 소스
+  - `week3-1/src/02-modern-javascript-lab/README.md`
 
 ### Slide 7. AI 활용 가이드
 
@@ -74,6 +86,8 @@
   - "AI에게는 코드 달라고 하기 전에, 로그 해석부터 요청하세요."
 - 시연 체크
   - 프롬프트 2개와 검증 체크리스트 제시
+- 참조 소스
+  - `week3-1/src/02-modern-javascript-lab/package.json`
 
 ## 2회차: Vue.js 기초와 화면 상태 바인딩
 
@@ -92,6 +106,8 @@
   - 초급 단계에서는 한 파일에서 흐름을 명확히 읽는 것이 중요하다.
 - 예시 문구
   - "컴포넌트는 화면 단위의 작은 프로그램입니다."
+- 참조 소스
+  - `week3-2/src/week3-vue-skeleton/src/views/LoginView.vue`
 
 ### Slide 3. 템플릿 바인딩 4종
 
@@ -100,6 +116,8 @@
   - 반복되는 DOM 조작 코드를 크게 줄일 수 있다.
 - 예시 문구
   - "DOM 찾기 코드를 줄이고, 상태와 조건을 선언으로 표현합니다."
+- 참조 소스
+  - `week3-2/src/week3-vue-skeleton/src/views/SecretsListView.vue`
 
 ### Slide 4. 실습: 검색/필터 화면
 
@@ -110,6 +128,8 @@
   - "원본 데이터는 보존하고, 화면용 결과는 계산해서 보여줍니다."
 - 시연 체크
   - keyword + status 조합으로 결과 변화 시연
+- 참조 소스
+  - `week3-2/src/week3-vue-skeleton/src/views/SecretsListView.vue`
 
 ### Slide 5. jQuery vs Vue 비교
 
@@ -118,6 +138,8 @@
   - 선택자 중심 사고에서 상태 중심 사고로 전환한다.
 - 예시 문구
   - "버튼을 눌렀을 때 무슨 DOM을 바꿀지보다, 어떤 상태가 바뀌는지 정의합니다."
+- 참조 소스
+  - `week3-1/src/01-legacy-script-demo/app.js`, `week3-2/src/week3-vue-skeleton/src/views/SecretsListView.vue`
 
 ### Slide 6. AI 프롬프트와 리뷰 체크
 
@@ -126,6 +148,8 @@
   - 이벤트 핸들러가 비대해지지 않게 쪼개는 기준을 제시한다.
 - 예시 문구
   - "AI 출력은 초안이고, 품질은 상태 설계 검토에서 결정됩니다."
+- 참조 소스
+  - `week3-2/src/week3-vue-skeleton/src/views/SecretCreateView.vue`
 
 ## 실습 진행 멘트 템플릿
 

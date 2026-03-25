@@ -22,6 +22,19 @@
 - 1회차는 개발 환경 이해와 실습 중심
 - 2회차는 Vue 컴포넌트/상태 바인딩 기초 중심
 
+## 실습 src 재구성안
+
+### week3-1 src
+
+- `src/01-legacy-script-demo`: 전통 브라우저 `<script>` 로드 방식 예제
+- `src/02-modern-javascript-lab`: Node/npm/package.json/Vite 실습 예제
+- `src/README.md`: 두 예제의 비교 포인트와 시연 순서 안내
+
+### week3-2 src
+
+- `src/week3-vue-skeleton`: Vue 상태 바인딩 2회차 실습 예제
+- Vue 관련 예제는 3-2로 분리해 1회차의 환경 학습과 혼선이 생기지 않게 한다.
+
 ## 1회차: 모던 JavaScript 개발 환경 이해 (1시간)
 
 ### 1회차 목표
@@ -92,6 +105,9 @@
 - 실습 포인트
   - 실패 로그를 읽고 원인(버전, 네트워크, 스크립트 누락)을 구분하는 연습
   - 명령 실행 결과를 팀원에게 재현 가능하게 공유하는 방식 안내
+- 사용 소스
+  - `week3-1/src/01-legacy-script-demo`: script 태그 방식 비교 시작점
+  - `week3-1/src/02-modern-javascript-lab`: `npm install`, `npm run dev`, `npm run build` 실습 대상
 
 #### Part 5. 1회차 AI 활용 포인트
 
@@ -113,6 +129,16 @@
 5. scripts 실행 흐름(`npm run dev`, `npm run build`)
 6. 설치/실행 오류 대응 체크리스트
 7. AI 프롬프트 예시와 검증 기준
+
+### 1회차 슬라이드-소스 매핑
+
+- Slide 1: `week3-1/src/01-legacy-script-demo/index.html`
+- Slide 2: `week3-1/src/README.md`
+- Slide 3: `week3-1/src/02-modern-javascript-lab/README.md`
+- Slide 4: `week3-1/src/02-modern-javascript-lab/package.json`
+- Slide 5: `week3-1/src/02-modern-javascript-lab/README.md`, `week3-1/src/02-modern-javascript-lab/src/main.js`
+- Slide 6: `week3-1/src/02-modern-javascript-lab/README.md`의 오류 대응 체크
+- Slide 7: `week3-1/src/02-modern-javascript-lab/package.json`과 실제 콘솔 로그 기준 프롬프트
 
 ## 2회차: Vue.js 기초와 화면 상태 바인딩 (1시간)
 
@@ -189,6 +215,15 @@
 5. jQuery 방식과 Vue 방식 비교
 6. AI 프롬프트 예시 + 코드 리뷰 체크리스트
 
+### 2회차 슬라이드-소스 매핑
+
+- Slide 1: `week3-2/src/week3-vue-skeleton/README.md`
+- Slide 2: `week3-2/src/week3-vue-skeleton/src/views/LoginView.vue`
+- Slide 3: `week3-2/src/week3-vue-skeleton/src/views/SecretsListView.vue`
+- Slide 4: `week3-2/src/week3-vue-skeleton/src/views/SecretsListView.vue`
+- Slide 5: `week3-1/src/01-legacy-script-demo/app.js`와 `week3-2/src/week3-vue-skeleton/src/views/SecretsListView.vue` 비교
+- Slide 6: `week3-2/src/week3-vue-skeleton/src/views/SecretCreateView.vue`
+
 ## 두 회차 공통 운영안
 
 ### 예제 선정 기준
@@ -200,9 +235,9 @@
 ### 공통 준비물
 
 - Node.js LTS 사전 설치 안내
-- 예제용 `package.json` 샘플
-- Vue 실습용 스켈레톤 프로젝트
-- before/after 비교 코드(script 방식 vs npm/Vue 방식)
+- `week3-1/src/02-modern-javascript-lab` 예제용 `package.json` 샘플
+- `week3-2/src/week3-vue-skeleton` Vue 실습용 스켈레톤 프로젝트
+- before/after 비교 코드(`week3-1/src/01-legacy-script-demo` vs `week3-1/src/02-modern-javascript-lab`)
 
 ## 강의 운영 체크리스트
 
@@ -223,6 +258,7 @@
 - 1회차 슬라이드 초안 7장
 - 2회차 슬라이드 초안 6장
 - 환경 세팅 가이드 1부
+- 모던 JavaScript 실습 예제 1종(script 비교 + npm 실행 루틴)
 - Vue 기초 실습 예제 1종(검색/필터)
 
 ## 이번 계획에서 제외하는 범위
@@ -241,8 +277,9 @@
 
 - 슬라이드 아웃라인: [WEEK3_FRONTEND_VUE_SLIDE_OUTLINE.md](WEEK3_FRONTEND_VUE_SLIDE_OUTLINE.md)
 - 발표 자료 초안: [WEEK3_FRONTEND_VUE_SLIDE_DRAFT.md](WEEK3_FRONTEND_VUE_SLIDE_DRAFT.md)
-- Gemini/Copilot PPT 작성 가이드: [WEEK3_FRONTEND_VUE_GEMINI_CANVAS_PPT_GUIDE.md](WEEK3_FRONTEND_VUE_GEMINI_CANVAS_PPT_GUIDE.md)
-- 교육용 Vue 예제 스켈레톤: [../labs/week3-vue-skeleton/README.md](../labs/week3-vue-skeleton/README.md)
+- Gemini/Copilot PPT 작성 가이드: [../../week3-2/docs/handbook/WEEK3_FRONTEND_VUE_GEMINI_CANVAS_PPT_GUIDE.md](../../week3-2/docs/handbook/WEEK3_FRONTEND_VUE_GEMINI_CANVAS_PPT_GUIDE.md)
+- 모던 JavaScript 실습 소스 안내: [../../src/README.md](../../src/README.md)
+- 교육용 Vue 예제 스켈레톤: [../../../week3-2/src/week3-vue-skeleton/README.md](../../../week3-2/src/week3-vue-skeleton/README.md)
 
 ---
 

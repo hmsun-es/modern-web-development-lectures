@@ -13,6 +13,38 @@
 - WEEK3_FRONTEND_VUE_TRAINING_PLAN.md
 - WEEK3_FRONTEND_VUE_SLIDE_OUTLINE.md
 - WEEK3_FRONTEND_VUE_SLIDE_DRAFT.md
+- week3-1/src/README.md
+- week3-1/src/01-legacy-script-demo
+- week3-1/src/02-modern-javascript-lab
+- week3-2/src/week3-vue-skeleton
+
+## 슬라이드 생성 전 소스 사용 원칙
+
+- 1회차 슬라이드는 반드시 week3-1 src만 사용한다.
+- 2회차 슬라이드는 Vue 예제만 사용하기 위해 week3-2 src를 사용한다.
+- 1회차에서 Vue 코드 캡처를 섞지 않는다.
+- 2회차 비교 슬라이드에서만 `week3-1/src/01-legacy-script-demo/app.js`를 보조 예시로 사용한다.
+
+## 슬라이드-소스 연결표
+
+### 1회차
+
+- Slide 1: `week3-1/src/01-legacy-script-demo/index.html`
+- Slide 2: `week3-1/src/README.md`
+- Slide 3: `week3-1/src/02-modern-javascript-lab/README.md`
+- Slide 4: `week3-1/src/02-modern-javascript-lab/package.json`
+- Slide 5: `week3-1/src/02-modern-javascript-lab/src/main.js`
+- Slide 6: `week3-1/src/02-modern-javascript-lab/README.md`
+- Slide 7: `week3-1/src/02-modern-javascript-lab/package.json`
+
+### 2회차
+
+- Slide 1: `week3-2/src/week3-vue-skeleton/README.md`
+- Slide 2: `week3-2/src/week3-vue-skeleton/src/views/LoginView.vue`
+- Slide 3: `week3-2/src/week3-vue-skeleton/src/views/SecretsListView.vue`
+- Slide 4: `week3-2/src/week3-vue-skeleton/src/views/SecretsListView.vue`
+- Slide 5: `week3-1/src/01-legacy-script-demo/app.js`, `week3-2/src/week3-vue-skeleton/src/views/SecretsListView.vue`
+- Slide 6: `week3-2/src/week3-vue-skeleton/src/views/SecretCreateView.vue`
 
 ## 산출물 요구사항
 

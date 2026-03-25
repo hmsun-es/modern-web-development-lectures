@@ -32,12 +32,12 @@
 
 ### week3-1
 
-- 주제: Vue 3 화면 구조, 상태 기반 UI, 교육용 스켈레톤 실습
+- 주제: 모던 JavaScript 개발 환경, Node/npm/package.json, 실행 루틴 실습
 - 시작 파일: `week3-1/README.md`
 
 ### week3-2
 
-- 주제: Vue 강의 보강 자료, 문서화, 발표용 정리
+- 주제: Vue 기초, 상태 기반 UI, 컴포넌트 실습
 - 시작 파일: `week3-2/README.md`
 
 ## 사용 방식

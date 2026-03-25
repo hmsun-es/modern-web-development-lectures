@@ -135,3 +135,24 @@
 - 1회차는 명령 실행 데모를 실제 터미널 화면으로 보여준다.
 - 2회차는 코드 길이를 줄이고 상태 변화 전후를 시각적으로 보여준다.
 - 실습 실패 케이스를 최소 1개 포함해 디버깅 감각을 키운다.
+
+## 슬라이드 생성용 소스 매핑
+
+### 1회차
+
+- Slide 1: `week3-1/src/01-legacy-script-demo/index.html`, `week3-1/src/01-legacy-script-demo/app.js`
+- Slide 2: `week3-1/src/README.md`
+- Slide 3: `week3-1/src/02-modern-javascript-lab/README.md`
+- Slide 4: `week3-1/src/02-modern-javascript-lab/package.json`
+- Slide 5: `week3-1/src/02-modern-javascript-lab/src/main.js`
+- Slide 6: `week3-1/src/02-modern-javascript-lab/README.md`
+- Slide 7: `week3-1/src/02-modern-javascript-lab/package.json`
+
+### 2회차
+
+- Slide 1: `week3-2/src/week3-vue-skeleton/README.md`
+- Slide 2: `week3-2/src/week3-vue-skeleton/src/views/LoginView.vue`
+- Slide 3: `week3-2/src/week3-vue-skeleton/src/views/SecretsListView.vue`
+- Slide 4: `week3-2/src/week3-vue-skeleton/src/views/SecretsListView.vue`
+- Slide 5: `week3-1/src/01-legacy-script-demo/app.js`, `week3-2/src/week3-vue-skeleton/src/views/SecretsListView.vue`
+- Slide 6: `week3-2/src/week3-vue-skeleton/src/views/SecretCreateView.vue`

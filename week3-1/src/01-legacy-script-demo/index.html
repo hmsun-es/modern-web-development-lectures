@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legacy Script Demo</title>
+    <style>
+        body {
+            font-family: "Malgun Gothic", sans-serif;
+            margin: 24px;
+            line-height: 1.5;
+        }
+
+        .controls {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .status {
+            color: #555;
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>전통 script 태그 방식</h1>
+    <p class="status" id="result-count"></p>
+
+    <div class="controls">
+        <input id="keyword" type="text" placeholder="keyword 입력" />
+        <select id="status-filter">
+            <option value="all">전체</option>
+            <option value="active">active</option>
+            <option value="archived">archived</option>
+        </select>
+        <button id="search-button" type="button">검색</button>
+    </div>
+
+    <ul id="result-list"></ul>
+
+    <script src="data.js"></script>
+    <script src="filter.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
