@@ -1,3 +1,5 @@
+export { secretCatalog } from "./data.js";
+
 export function filterSecrets(items, keyword, status) {
     const normalizedKeyword = keyword.trim().toLowerCase();
 
